@@ -30,6 +30,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={hrms}
               isBlog={false}
               title="HRMS - Human Resource Management System"
               description="A full-stack HR management system built with Laravel. Features include employee management, attendance tracking, leave requests with approval flow, payroll management with printable pay slips, and role-based access control for Admin, HR, and Employee roles."
